@@ -1,7 +1,9 @@
 com/ucacue/Biblioteca/model/Estudiante.class
+com/ucacue/Biblioteca/infraestructure/repository/LibroRepository.class
 com/ucacue/Biblioteca/controller/EstudianteController.class
 com/ucacue/Biblioteca/infraestructure/repository/AutorRepository.class
 com/ucacue/Biblioteca/model/CabeceraRecerva.class
+com/ucacue/Biblioteca/controller/LibroController.class
 com/ucacue/Biblioteca/infraestructure/service/CabeceraRecerbaService.class
 com/ucacue/Biblioteca/BibliotecaApplication.class
 com/ucacue/Biblioteca/infraestructure/repository/CabeceraRecervaRepository.class
