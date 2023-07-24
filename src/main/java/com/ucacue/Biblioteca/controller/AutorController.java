@@ -5,11 +5,9 @@ import com.ucacue.Biblioteca.infraestructure.repository.AutorRepository;
 import com.ucacue.Biblioteca.model.Autor;
 import com.ucacue.Biblioteca.model.Libro;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -30,4 +28,29 @@ public class AutorController {
     public List<Libro> getLibrosByAutor(@PathVariable int id){
         return autorRepository.findById(id).get().getLibros();
     }
+
+    // Guardar libro
+    @PostMapping("/guardarAutor")
+    @ResponseStatus(HttpStatus.CREATED)
+    public Autor saveAutor(@RequestBody Autor autores){
+        return autorRepository.save(autores);
+    }
+
+    // Actualizar libro
+    @PutMapping("/actualizarAutor")
+    @ResponseStatus(HttpStatus.CREATED)
+    public Autor updateAutor(@RequestBody Autor autores)
+    {
+        return autorRepository.save(autores);
+    }
+
+    // Elminar libro por ID
+    @DeleteMapping("/eliminarAutor/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteAutor(@PathVariable int id)
+    {
+        autorRepository.deleteById(id);
+    }
+
+
 }
