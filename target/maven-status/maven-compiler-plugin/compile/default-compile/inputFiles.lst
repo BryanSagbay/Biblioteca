@@ -1,0 +1,15 @@
+/home/bryxn/IdeaProjects/Biblioteca/src/main/java/com/ucacue/Biblioteca/infraestructure/service/CabeceraRecerbaService.java
+/home/bryxn/IdeaProjects/Biblioteca/src/main/java/com/ucacue/Biblioteca/infraestructure/repository/AutorRepository.java
+/home/bryxn/IdeaProjects/Biblioteca/src/main/java/com/ucacue/Biblioteca/BibliotecaApplication.java
+/home/bryxn/IdeaProjects/Biblioteca/src/main/java/com/ucacue/Biblioteca/model/Autor.java
+/home/bryxn/IdeaProjects/Biblioteca/src/main/java/com/ucacue/Biblioteca/model/CabeceraRecerva.java
+/home/bryxn/IdeaProjects/Biblioteca/src/main/java/com/ucacue/Biblioteca/model/Persona.java
+/home/bryxn/IdeaProjects/Biblioteca/src/main/java/com/ucacue/Biblioteca/model/Estudiante.java
+/home/bryxn/IdeaProjects/Biblioteca/src/main/java/com/ucacue/Biblioteca/model/Docente.java
+/home/bryxn/IdeaProjects/Biblioteca/src/main/java/com/ucacue/Biblioteca/model/DetalleReserva.java
+/home/bryxn/IdeaProjects/Biblioteca/src/main/java/com/ucacue/Biblioteca/model/Libro.java
+/home/bryxn/IdeaProjects/Biblioteca/src/main/java/com/ucacue/Biblioteca/infraestructure/repository/CabeceraRecervaRepository.java
+/home/bryxn/IdeaProjects/Biblioteca/src/main/java/com/ucacue/Biblioteca/infraestructure/repository/EstudianteRepository.java
+/home/bryxn/IdeaProjects/Biblioteca/src/main/java/com/ucacue/Biblioteca/controller/AutorController.java
+/home/bryxn/IdeaProjects/Biblioteca/src/main/java/com/ucacue/Biblioteca/controller/EstudianteController.java
+/home/bryxn/IdeaProjects/Biblioteca/src/main/java/com/ucacue/Biblioteca/controller/CabeceraRecervaController.java
