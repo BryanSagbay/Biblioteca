@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.ucacue.Biblioteca.BibliotecaApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.361 s - in com.ucacue.Biblioteca.BibliotecaApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.565 s - in com.ucacue.Biblioteca.BibliotecaApplicationTests
