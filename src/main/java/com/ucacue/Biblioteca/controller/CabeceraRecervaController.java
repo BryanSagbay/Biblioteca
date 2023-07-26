@@ -25,7 +25,7 @@ public class CabeceraRecervaController {
     @Autowired
     CabeceraRecerbaService cabeceraRecerbaService;
 
-    @GetMapping("/recerbas")
+    @GetMapping("/recervas")
     public List<CabeceraRecerva> getAllCabeceraRecerva(){
         List<CabeceraRecerva> cabeceraRecervas = cabeceraRecervaRepository.findAll();
         for(CabeceraRecerva cabeceraRecerva : cabeceraRecervas){
@@ -36,7 +36,7 @@ public class CabeceraRecervaController {
         return cabeceraRecervaRepository.findAll();
     }
 
-    @GetMapping("/recerbas/mora")
+    @GetMapping("/recervas/mora")
     public List<DetalleReserva> recerbasMora()
     {
         return cabeceraRecerbaService.recerbasMora();
